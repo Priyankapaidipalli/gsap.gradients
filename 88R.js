@@ -1,0 +1,44 @@
+gsap.from('.main>*',{
+    x:-30,
+    y:-20,
+    duration:1,
+    delay:1,
+    opacity:0,
+    stagger:1.5,
+})
+gsap.from('.page1>h1',{
+    opacity:0,
+    duration:3,
+    delay:3,
+    scale:0.2,
+})
+gsap.from('.page2>h1',{
+    opacity:0,
+    duration:3,
+    delay:3,
+    x:-80,
+    scrollTrigger:'.page2>h1'
+})
+gsap.from('.page2>h2',{
+    opacity:0,
+    duration:3,
+    delay:3,
+    x:80,
+    scrollTrigger:'.page2>h2'
+})
+gsap.from('.page3>img',{
+    opacity:0,
+    duration:3,
+    delay:3,
+    y:100,
+    rotate:-100,
+    scrollTrigger:'.page3>img'
+})
+gsap.from('.page3>p',{
+    opacity:0,
+    duration:3,
+    delay:3,
+    y:100,
+    rotate:-180,
+    scrollTrigger:'.page3>p'
+})
